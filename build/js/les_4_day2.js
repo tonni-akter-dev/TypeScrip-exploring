@@ -66,3 +66,33 @@ const total = (a, ...nums) => {
     return nums.reduce((prev, cur) => prev + cur);
 };
 // logMsg(total(1, 2, 3, 4)); //a: number=1 r bakigula ...nums er man
+/* const infinite=()=>{
+  let i:number=1
+  while(true){
+    i++
+  }
+}  //ato tuku code er type never because it has no wxplicit return */
+const infinite = () => {
+    //if condition deoar por er type void
+    let i = 1;
+    while (true) {
+        i++;
+        if (i > 100)
+            break;
+    }
+};
+// =========error=================
+const createError = (errMsg) => {
+    throw new Error(errMsg);
+};
+//custom type guard======
+const isNumber = (value) => {
+    return typeof value == 'number' ? true : false;
+};
+//use of never type
+/* const numOrString = (value: number | string): string => {
+  if (typeof value == "number") return "number";
+  if (typeof isNumber(value)) return "string";
+  return createError(" This should never happen! ");
+};
+ */ 
