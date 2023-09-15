@@ -39,3 +39,4 @@ console.log(returnTypeAnnotations()) */
 console.log(obj.lastName?.toUpperCase)
 }
 printName({firstname:"Tonni",lastName:"Akter"}) */
+console.log("object")

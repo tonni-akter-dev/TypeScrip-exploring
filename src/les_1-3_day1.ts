@@ -5,8 +5,9 @@ console.log(username);
 let a:number=12
 let b:number=6
 let c:number=2
-
 console.log(a/b) */
+
+
 
 // lesson-2 data type
 /* let myName: string = "Tonni";
@@ -29,7 +30,7 @@ let re: RegExp = /\w+/g; */
 let strArray = ["tonni", "ayat", "maya"];
 let guiters = ["sstrat", 550, "les paul"];
 let mixedArray = ["EVH", 1980, true];
-strArray[0] = "mazharul";
+strArray[0] = "mango";
 strArray.push("hey");
 
 guiters[0] = 1984;
